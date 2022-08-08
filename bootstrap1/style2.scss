@@ -1,0 +1,32 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+
+@include media-breakpoint-between(xs, sm) {
+    .hola {
+      background-color: violet;
+    }
+  }
+@include media-breakpoint-between(sm, md) {
+    .hola {
+      background-color: violet;
+    }
+}
+@include media-breakpoint-between(md, lg) {
+  .hola {
+    background-color: violet;
+  }
+}
+@include media-breakpoint-between(lg, xl) {
+  .hola {
+    background-color: green;
+  }
+}
+@include media-breakpoint-between(xl, xxl) {
+  .hola {
+    background-color: green;
+  }
+}

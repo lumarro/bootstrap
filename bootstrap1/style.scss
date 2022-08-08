@@ -4,9 +4,9 @@
 @import "./node_modules/bootstrap/scss/variables";
 @import "./node_modules/bootstrap/scss/mixins";
 
- .hola {
-    background-color: violet;
- }
+.hola {
+    background-color: blue;
+}
 @include media-breakpoint-only(sm) {
     .hola {
       background-color: red;
