@@ -1,34 +1,31 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-
-.hola {
-    background-color: blue;
-}
-@include media-breakpoint-only(sm) {
-    .hola {
-      background-color: red;
-    }
-  }
-@include media-breakpoint-only(md) {
-  .hola {
+body{
     background-color: orange;
-  }
 }
-@include media-breakpoint-only(lg) {
-  .hola {
-    background-color: blue;
-  }
+
+@include media-breakpoint-only(sm){
+    body{
+        background-color:blue;
+    }
 }
-@include media-breakpoint-only(xl) {
-  .hola {
-    background-color: green;
-  }
+@include media-breakpoint-only(md){
+    body{
+        background-color:red;
+    }
 }
-@include media-breakpoint-only(xxl) {
-  .hola {
-    background-color: yellow;
-  }
+@include media-breakpoint-only(lg){
+    body{
+        background-color:green;
+    }
+}
+@include media-breakpoint-only(xl){
+    body{
+        background-color:yellow;
+    }
+}
+@include media-breakpoint-only(xxl){
+    body{
+        background-color:pink;
+    }
 }
