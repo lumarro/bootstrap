@@ -1,0 +1,14 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+
+@include media-breakpoint-between(xs, lg){ /*min:0px, max:750px*/
+    body{
+        background-color:blue;
+    }
+}
+
+@include media-breakpoint-up(lg){ /*min:750px*/
+    body{
+        background-color:green;
+    }
+}

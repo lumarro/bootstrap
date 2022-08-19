@@ -1,30 +1,30 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 body{
-    background-color: orange;
+    background-color: orange; /*max:576px*/
 }
 
-@include media-breakpoint-only(sm){
+@include media-breakpoint-only(sm){ /*max:768px*/ 
     body{
         background-color:blue;
     }
 }
-@include media-breakpoint-only(md){
+@include media-breakpoint-only(md){ /*max:992px*/
     body{
         background-color:red;
     }
 }
-@include media-breakpoint-only(lg){
+@include media-breakpoint-only(lg){ /*max:1200px*/
     body{
         background-color:green;
     }
 }
-@include media-breakpoint-only(xl){
+@include media-breakpoint-only(xl){ /*max:1400px*/
     body{
         background-color:yellow;
     }
 }
-@include media-breakpoint-only(xxl){
+@include media-breakpoint-only(xxl){ /*A partir de 1400px*/
     body{
         background-color:pink;
     }
