@@ -1,1 +1,18 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+#row{
+    height:350px;
+    margin-bottom: 50px;
+}
+#div-1,#div-2{
+    height: 50%;
+}
+@include media-breakpoint-up(sm){
+    #row{
+        height: 175px;
+        margin-bottom: 25px;
+    }
+    #div-1,#div-2{
+        height: 100%;
+    }
+}

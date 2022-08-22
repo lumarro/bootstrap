@@ -10922,27 +10922,21 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#div-2 {
-  height: 175px;
+#row {
+  height: 350px;
+  margin-bottom: 50px;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-  #div-2 {
-    height: 175px;
-  }
+#div-1, #div-2 {
+  height: 50%;
 }
-@media (min-width: 768px) {
-  #num-3, #num-4 {
-    display: flex;
-    align-self: end;
-    height: 50%;
+
+@media (min-width: 576px) {
+  #row {
+    height: 175px;
+    margin-bottom: 25px;
   }
-  #num-1, #num-2 {
-    display: flex;
-    align-self: start;
-    height: 50%;
-  }
-  #div-2 {
-    height: 350px;
+  #div-1, #div-2 {
+    height: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
