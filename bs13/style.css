@@ -10922,6 +10922,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#colortext {
+  color: transparent;
+}
+
 #row-1 {
   height: 180vh;
 }
