@@ -7,6 +7,15 @@
 #div-1,#div-2{
     height: 50%;
 }
+#change{
+    color: transparent;
+}
+#mobile{
+    color:black;
+}
+#desktop, #tablet{
+    color: transparent;
+}
 @include media-breakpoint-up(sm){
     #row{
         height: 175px;
@@ -14,5 +23,19 @@
     }
     #div-1,#div-2{
         height: 100%;
+    }
+    #desktop, #mobile{
+        color: transparent;
+    }
+    #tablet{
+        color: black;
+    }
+}
+@include media-breakpoint-up(md){
+    #desktop{
+        color: black;
+    }
+    #tablet, #mobile{
+        color: transparent;
     }
 }
