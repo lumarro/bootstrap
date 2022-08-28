@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+#row-1{
+    height: 180vh;
+}
+#col-1 {
+    height: 10vh;
+}
+#col-2 {
+    height: 168vh;
+}
+@include media-breakpoint-up(sm){
+    #row-1{
+        height: 90vh;
+    }
+    #col-1, #col-2 {
+        height: 89vh;
+    }
+}
